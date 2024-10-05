@@ -7,7 +7,7 @@ const PORT = 5000;
 app.use(express.static(path.join(__dirname, "../client/build")));
 
 app.get("/names", (req, res) => {
-  res.send("Vinayak");
+  res.send("Vinayak Chittora");
 });
 
 app.listen(PORT, () => {
